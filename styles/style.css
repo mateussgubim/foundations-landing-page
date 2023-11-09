@@ -1,0 +1,41 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+
+    background-color: var(--dark-blue);
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+}
+
+
+a {
+    color: var(--light-gray);
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+a:hover{
+    color: var(--cream);
+}
+
+.button {
+    padding: 8px 12px;
+    background-color: #df2834;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #BF313B;
+}
+
+.header-logo{
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--cream);
+    cursor: default;
+}
