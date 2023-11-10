@@ -2,7 +2,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
+    padding: 30px;
     background-color: var(--dark-blue);
 }
 
@@ -93,6 +93,7 @@ a:hover{
 .info{
     background-color: var(--cream);
     padding: 50px 20px;
+    margin-bottom: 20px;
 }
 
 .info-title{
@@ -135,4 +136,88 @@ a:hover{
 .box-img{
     border: 5px solid var(--blue);
     border-radius: 15px;
+}
+
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-gray);
+    padding: 50px 20px;
+    height: 320px;
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 820px;
+}
+
+.quote-text{
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    color: var(--dark-blue);
+    margin-bottom: 20px;
+}
+
+.quote-name{
+    align-self: flex-end;
+}
+
+.cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 280px;
+}
+
+.cta-section{
+    background-color: var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 1 60%;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+.cta-title, .cta-text{
+    color: var(--cream);
+}
+
+.cta-title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: -5px;
+}
+
+.cta-button{
+    background-color: var(--blue);
+    color: var(--cream);
+    width: 120px;
+    height: 38px;
+    font-size: 18px;
+    font-weight: 700;
+    border: 2px solid var(--cream);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.cta-button:hover{
+    background-color: var(--cream);
+    color: var(--blue);
+}
+
+footer{
+    background-color: var(--dark-blue);
+    color: var(--cream);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
